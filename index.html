@@ -15,11 +15,12 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
+  <link href="https://fonts.googleapis.com/css?family=Convergence" rel="stylesheet">
+  
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.min.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -30,54 +31,59 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <div class="row">
-      <div style="margin-top: 5%; text-align: center">
-        <img class="header" src="images/yolanda.jpg">
-        <img class="logo" src="images/curandera-logo.png">
-        <h5><b>a feature documentary film</b></h5>
-        <h5><b>by Ethan Goldwater</b></h5>
-        <h5 class="contact">Contact: <a href="mailto:team@hoverpictures.com">team@hoverpictures.com</a></p>
+  <div class="page">
+    <div class="site-header">
+      <div class="site-header__overlay"></div>
+      <div class="video-wrap">
+        <video poster="images/cura-bg.jpg" id="bgvid" playsinline autoplay muted loop>
+          <source src="video/cura-bg.webm" type="video/webm">
+          <source src="video/cura-bg.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="site-header__inner">
+        <img class="logo" src="images/cura-logo.png">
+      </div>
+      <div class="site-header__bottom">
+        <h5>a feature documentary film</h5>
+        <h5>by Ethan Goldwater</h5>
+        <h5 class="contact">Contact: <a href="mailto:team@hoverpictures.com">team@hoverpictures.com</a></h5>
+      </div>
       </div>
     </div>
-    <div class="row logline">
-      <p>
-      </p>
-    </div>
-    <div class="row">
-      <div class="one-half column" style="margin-top: 5%">
-        <img src="images/yolanda-2.jpg" width="100%">
+    <!-- <div class="images-container">
+      <div class="one-half column">
+        <img src="images/yolanda-2.jpg">
       </div>
-      <div class="one-half  column" style="margin-top: 5%">
-        <img src="images/yolanda-1.jpg" width="100%">
-      </div>
-    </div>
-    <div class="row">
-      <div class="one-half column" style="margin-top: 5%">
-        <img src="images/yolanda-3.jpg" width="100%">
-      </div>
-      <div class="one-half  column" style="margin-top: 5%">
-        <img src="images/yolanda-4.jpg" width="100%">
+      <div class="one-half  column">
+        <img src="images/yolanda-1.jpg">
       </div>
     </div>
     <div class="row">
-      <div class="one-third column" style="margin-top: 5%; text-align: center">
-        <img src="images/ifp-1.png" width="30%">
+      <div class="one-half column">
+        <img src="images/yolanda-3.jpg">
       </div>
-      <div class="one-third  column" style="margin-top: 5%; text-align: center">
-        <img src="images/ifp-2.png" width="20%">
-      </div>
-      <div class="one-third  column" style="margin-top: 5%; text-align: center">
-        <img src="images/hover.png" width="30%">
+      <div class="one-half  column">
+        <img src="images/yolanda-4.jpg">
       </div>
     </div>
+    <div class="row">
+      <div class="one-third column">
+        <img src="images/ifp-1.png">
+      </div>
+      <div class="one-third  column">
+        <img src="images/ifp-2.png">
+      </div>
+      <div class="one-third  column">
+        <img src="images/hover.png">
+      </div>
+    </div> -->
   </div>
 
-  <footer>
-    <div style="margin-top: 5%; text-align: center">
+  <!-- <footer>
+    <div>
       <h4><a href="http://hoverpictures.com">hoverpictures.com</a></h4>
     </div>
-  </footer>
+  </footer> -->
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

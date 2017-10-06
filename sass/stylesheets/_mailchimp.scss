@@ -1,0 +1,51 @@
+.mailchimp-form-container {
+  height: 100vh;
+  position: relative;
+
+  .form-wrapper {
+    position: absolute;
+    width: 390px;
+    left: 50%;
+    top: 50%;
+    @include transform(translate(-50%, -50%));
+  }
+
+  label,
+  input,
+  div {
+    display: block;
+    font-family: $title-font;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+  }
+
+  label {
+    font-size: 24px !important;
+    margin-bottom: 20px;
+  }
+
+  input {
+    padding: 10px;
+    background: transparent;
+    border: 1px solid black;
+    margin: 10px 0;
+  }
+
+  input[type="email"] {
+    text-align: left;
+  }
+
+  input[type="submit"] {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    text-transform: uppercase;
+    @include transition(all .2s ease-in-out);
+
+    &:hover {
+      color: white;
+      background-color: black;
+    }
+  }
+}

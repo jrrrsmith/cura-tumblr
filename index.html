@@ -15,11 +15,12 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
+  <link href="https://fonts.googleapis.com/css?family=Convergence" rel="stylesheet">
+  
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.min.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -30,56 +31,105 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
+  <div class="page">
+    <div class="site-header">
+      <div class="site-header__overlay"></div>
+      <div class="video-wrap">
+        <video poster="images/cura-bg.jpg" id="bgvid" playsinline autoplay muted loop>
+          <source src="video/cura-bg.webm" type="video/webm">
+          <source src="video/cura-bg.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="site-header__inner">
+        <img class="logo" src="images/cura-logo-gray.png">
+      </div>
+      <div class="site-header__bottom">
+        <!-- <h5>a feature documentary film</h5>
+        <h5>by Ethan Goldwater</h5> -->
+        <!-- <h5 class="contact">Contact: <a href="mailto:team@hoverpictures.com">team@hoverpictures.com</a></h5> -->
+        <a class="scroll-link" href="#mc_embed_signup">
+          Join our Mailing List
+        </a>
+      </div>
+      </div>
+    </div>
+    <div class="mailchimp-form-container">
+
+      <div class="site-info">
+        <h5>Yolanda had been sober for years, on a healing path with yoga, meditation and plant medicine, when she was devastated by the death of her youngest son in an Oakland jail.  Cura is an interdimensional documentary about a Mexican American mother called by her spirit guides to seek healing in dreams,  visions and community as she fights to liberate her oldest son Donny from a life of addiction and end the cycle of violence and chaos in her family and community.</h5>
+        <h5 class="contact">Contact: <a href="mailto:team@hoverpictures.com">team@hoverpictures.com</a></h5>
+      </div>
+      <div id="mc_embed_signup" class="form-wrapper">
+        <form action="//hoverpictures.us3.list-manage.com/subscribe/post?u=fc8289deee3c1d33821ff0051&amp;id=a438a171dc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+          <div id="mc_embed_signup_scroll">
+
+            <label for="mce-EMAIL">Subscribe to our mailing list</label>
+            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+
+              <input type="text" name="b_fc8289deee3c1d33821ff0051_a438a171dc" tabindex="-1" value="">
+
+            </div>
+
+            <div class="clear">
+
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="social-media">
+        <p>Like our page on facebook and instagram</p>
+        <a class="icon-facebook2 social-icon" href="https://www.facebook.com/curamovie/" target="_blank"></a>
+        <a class="icon-instagram social-icon" href="http://www.instagram.com/cura_film" target="_blank"></a>
+      </div>
+
+      <!--End mc_embed_signup-->
+    </div>
+    <!-- <div class="images-container">
+      <div class="one-half column">
+        <img src="images/yolanda-2.jpg">
+      </div>
+      <div class="one-half  column">
+        <img src="images/yolanda-1.jpg">
+      </div>
+    </div>
     <div class="row">
-      <div style="margin-top: 5%; text-align: center">
-        <img class="header" src="images/yolanda.jpg">
-        <img class="logo" src="images/curandera-logo.png">
-        <h5><b>a feature documentary film</b></h5>
-        <h5><b>by Ethan Goldwater</b></h5>
-        <h5 class="contact">Contact: <a href="mailto:team@hoverpictures.com">team@hoverpictures.com</a></p>
+      <div class="one-half column">
+        <img src="images/yolanda-3.jpg">
       </div>
-    </div>
-    <div class="row logline">
-      <p>
-      </p>
-    </div>
-    <div class="row">
-      <div class="one-half column" style="margin-top: 5%">
-        <img src="images/yolanda-2.jpg" width="100%">
-      </div>
-      <div class="one-half  column" style="margin-top: 5%">
-        <img src="images/yolanda-1.jpg" width="100%">
+      <div class="one-half  column">
+        <img src="images/yolanda-4.jpg">
       </div>
     </div>
     <div class="row">
-      <div class="one-half column" style="margin-top: 5%">
-        <img src="images/yolanda-3.jpg" width="100%">
+      <div class="one-third column">
+        <img src="images/ifp-1.png">
       </div>
-      <div class="one-half  column" style="margin-top: 5%">
-        <img src="images/yolanda-4.jpg" width="100%">
+      <div class="one-third  column">
+        <img src="images/ifp-2.png">
       </div>
-    </div>
-    <div class="row">
-      <div class="one-third column" style="margin-top: 5%; text-align: center">
-        <img src="images/ifp-1.png" width="30%">
+      <div class="one-third  column">
+        <img src="images/hover.png">
       </div>
-      <div class="one-third  column" style="margin-top: 5%; text-align: center">
-        <img src="images/ifp-2.png" width="20%">
-      </div>
-      <div class="one-third  column" style="margin-top: 5%; text-align: center">
-        <img src="images/hover.png" width="30%">
-      </div>
-    </div>
+    </div> -->
   </div>
 
-  <footer>
-    <div style="margin-top: 5%; text-align: center">
+  <!-- <footer>
+    <div>
       <h4><a href="http://hoverpictures.com">hoverpictures.com</a></h4>
     </div>
-  </footer>
+  </footer> -->
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

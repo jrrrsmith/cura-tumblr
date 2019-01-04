@@ -1,0 +1,20 @@
+.social-media {
+  margin-top: 20px;
+
+  @include media($mobile) {
+    padding-bottom: 20px;
+  }
+
+  .social-icon {
+    font-size: 24px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: black;
+    backface-visibility: hidden;
+    @include transition(opacity .2s ease-in-out);
+
+    &:hover {
+      opacity: .5;
+    }
+  }
+}

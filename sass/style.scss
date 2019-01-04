@@ -1,0 +1,20 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
+//@import "animate";
+@import "grid-settings";
+
+//fonts and colors
+@import "stylesheets/fonts";
+@import "stylesheets/icomoon";
+
+@import "stylesheets/site-header";
+@import "stylesheets/logo";
+@import "stylesheets/mailchimp";
+@import "stylesheets/social-media";
+
+//base
+.wrap {
+  @include outer-container;
+  padding-left: 30px;
+  padding-right: 30px;
+}

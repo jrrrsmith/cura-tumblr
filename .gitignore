@@ -1,0 +1,27 @@
+### Ignore all Files
+*~
+/*
+### Ignore files from MAC
+.DS_Store
+### Ignore sass cache and node modules
+.sass-cache
+### Ignore VSCode settings
+.vscode
+
+### Except git ignore file
+!/.gitignore
+
+### Except "dev files"
+!/fonts
+!/images
+!/js
+!/sass
+!/video
+!/download
+!*.html
+!/robots.txt
+
+### Ignore compiled CSS
+css/style.min.css
+css/style.min.css.map
+sass/.sass-cache

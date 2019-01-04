@@ -31,10 +31,16 @@
     left: 50%;
     @include transform(translate(-50%, -50%));
     text-align: center;
+    width: 350px;
+
+    @include media($mobile) {
+      width: 300px;
+    }
 
     img {
       margin-bottom: 40px;
-      opacity: .7;
+      opacity: .8;
+      width: 100%;
     }
   }
 

@@ -23,12 +23,13 @@
   }
 
   .form-wrapper {
-    //position: absolute;
     width: 390px;
     margin: 70px auto 0;
-    //left: 50%;
-    //bottom: 75px;
-    //@include transform(translateX(-50%));
+
+    @include media($mobile) {
+      width: 300px;
+      margin: 30px auto 0;
+    }
   }
 
   label,
@@ -39,6 +40,10 @@
     font-size: 14px;
     text-align: center;
     width: 100%;
+
+    @include media($mobile) {
+      font-size: 16px;
+    }
   }
 
   label {
